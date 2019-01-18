@@ -74,13 +74,16 @@ header,
     border: 5px solid #fff;
 }
 
-/*.card-body {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    -webkit-border-radius: 0!important;
-    border-radius: 0!important;
-}*/
-
 .testimonial-card .card-body {
     text-align: center;
+}
+
+.streak.streak-photo {
+  background-attachment: fixed;
+}
+
+/* Призыв к действию */
+
+.ac-pattern-block {
+  padding: 90px;
 }
