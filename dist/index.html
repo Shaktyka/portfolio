@@ -511,7 +511,7 @@
                 <h2 class="h2-responsive mb-5 wow fadeIn">If you have any legal problem in your life ... We are
                     available</h2>
                 <div class="text-center">
-                    <a href="#contact" class="btn btn-purple wow fadeIn " data-offset="100" data-wow-delay="0.2s">Напишите нам</a>
+                    <a href="#contact" class="btn btn-purple wow fadeIn" data-offset="100" data-wow-delay="0.2s">Напишите нам</a>
                 </div>
               </div>
             </div>
@@ -830,6 +830,14 @@
     $(function () {
     $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
     });
+  </script>
+
+  <!-- Инициализация анимации при скролле -->
+  <script>
+    // Adding animations to the sections
+    $("section").addClass("wow fadeIn");
+
+    new WOW().init();
   </script>
 </body>
 
